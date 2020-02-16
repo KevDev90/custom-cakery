@@ -6,6 +6,7 @@ const close = document.querySelector(".close");
 document.querySelector(".hamburger").addEventListener("click", () => {
   if (!menu.classList.contains("active")) {
     menu.classList.add("active");
+    menu.setAttribute("aria-expanded", 'true')
     close.classList.add("active")
   }
 });
@@ -13,6 +14,7 @@ document.querySelector(".hamburger").addEventListener("click", () => {
 document.querySelector(".close").addEventListener("click", () => {
   if (close.classList.contains("active")) {
     close.classList.remove("active");
+    menu.setAttribute("aria-expanded", 'false')
     menu.classList.remove("active")
   }
 });
@@ -48,7 +50,7 @@ if (document.querySelector("#order")) {
 
   document.querySelector(".modal-button").addEventListener("click", () => {
     if (document.querySelector(".modal-email-field").value) {
-      document.querySelector(".modal-content").innerHTML = 
+      document.querySelector(".modal-content").innerHTML =
       "<h3>Your coupon code is <span class='green'>cakelovers</span></h3>"
     }
   })
