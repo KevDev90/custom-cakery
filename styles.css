@@ -1,7 +1,7 @@
 /********************************* NATIVE ELS & GENERAL STYLES *********************************/
 
 html, body {
-  color: #576574;
+  color: #000000;
   font-size: 14px;
   margin: 0;
   font-family: 'Josefin Slab', serif;
@@ -70,6 +70,7 @@ h4 {
 
 .description-text {
   max-width: 500px;
+  font-size: 22px;
 }
 
 .content {
@@ -206,7 +207,7 @@ h4 {
 }
 
 .gallery-item:hover .gallery-btn:hover {
-  opacity: 1;
+  opacity: .5;
 }
 
 /********************************* HELPERS *********************************/
@@ -239,4 +240,13 @@ h4 {
 
 .margin-top--small {
   margin-top: 15px;
+}
+
+@media screen and (max-width:1000px) {
+  .header h1 img a {
+    max-width:450px;
+  }
+  .flex {
+    flex-direction: column;
+  }
 }
