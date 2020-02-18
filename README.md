@@ -1,5 +1,8 @@
 # 🎂The Custom Cakery
 
+
+### Github-Pages- https://kevdev90.github.io/custom-cakery/public/landing.html
+
 The Custom Cakery is a custom cake selling business. They have a website consisting of a home, order and gallery page. Customers can learn about the business, place a cake order and view previous cakes that the Custom Cakery has made. The Custom Cakery is overall happy with the look and feel of their website, but are concerned that not all of their customers are able to access it and place cake orders.
 
 Your job is to make The Custom Cakery accessible and responsive. Don't be afraid to make design and/or content changes, but make sure to stick to the overall theme and design of the website (colors, fonts, vibe, etc.).  
